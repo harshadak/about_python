@@ -7,9 +7,9 @@
     font-family: 'Raleway', sans-serif;
 }
 
-/* Main Content styles */
+/* First fold styles */
 
-.main-content {
+.first-fold {
     display: block;
     width: 970px;
     padding: 35px;
@@ -50,6 +50,9 @@
     height: 50px;
     width: 250px;
     background-color: #2E2E2E;
+    -webkit-box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.75);
     text-align: center;
     padding-top: 10px;
     border-radius: 5px;
@@ -68,3 +71,170 @@
 }
 
 /* Page navigation styles */
+
+.nav {
+    height: 50px;
+    width: 820px;
+    margin-left: 50px;
+    background-color: #0489B1;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+}
+.nav ul {
+    display: block;
+    padding-top: 12px;
+    margin-left: 25px;
+}
+.nav ul li {
+    display: inline;
+    color: #BDBDBD;
+    font-size: 20px;
+    padding: 0 18px;
+}
+
+/* Mid section/Python history styles */
+
+.python-history {
+    width: 750px;
+    margin-left: 50px;
+    display: block;
+}
+
+/* Sidebar styles */
+
+.python-history div.sidebar {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.python-history div.sidebar ul li {
+    margin-bottom: 10px;
+}
+.python-history div.sidebar ul li span {
+    margin-right: 5px;
+    color: #FACC2E;
+    font-size: 10px;
+}
+.python-history div.sidebar ul,
+.python-history div.sidebar ul li a {
+    color: #BDBDBD;
+    list-style: none;
+}
+
+/* About Python styles */
+
+.python-history div.about-python {
+    width: 495px;
+    color: #BDBDBD;
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.python-history div.about-python p {
+    font-size: 14px;
+    margin: 13px 0;
+}
+.python-history div.about-python p.yellow-text {
+    color: #FACC2E;
+    font-style: italic;
+    font-size: 18px;
+}
+.python-history div.about-python p.end-line {
+    font-size: 16px;
+}
+
+/* Second fold styles */
+
+.second-fold {
+    display: block;
+    width: 970px;
+    margin: 0 auto;
+    border: 1px solid black;
+    /* Remove after done */
+}
+
+/* General info styles */
+
+
+/* Getting started styles */
+
+.general-info {
+    height: 300px;
+    padding: 25px;
+    display: block;
+    background-color: #fff;
+    text-align: center;
+}
+.general-info div.getting-started {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    margin-right: 50px;
+}
+
+/* Common style */
+
+.general-info h2.heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    border-top: 4px solid #01A9DB;
+}
+.general-info ul {
+    margin-top: 5px;
+}
+.general-info ul li a {
+    text-decoration: none;
+    color: #01A9DB;
+}
+
+/* Applications styles */
+
+.general-info div.applications {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+}
+.general-info div.applications p span {
+    color: #01A9DB;
+}
+
+/* Footer syles */
+
+.footer {
+    background: #0B4C5F;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#0B4C5F, #0489B1);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#0B4C5F, #0489B1);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#0B4C5F, #0489B1);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#0B4C5F, #0489B1);
+    /* Standard syntax */
+    display: block;
+    text-align: center;
+}
+.footer ul {
+    padding-top: 55px;
+    padding-bottom: 10px;
+}
+.footer ul li {
+    display: inline;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: #01A9DB;
+}
+.footer p {
+    color: #01A9DB;
+    padding-bottom: 10px;
+}
