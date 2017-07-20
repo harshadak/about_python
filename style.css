@@ -1,4 +1,70 @@
+/* CSS Reset */
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
+
+/* Main Content styles */
+
+.main-content {
+    display: block;
+    width: 970px;
+    padding: 35px;
+    background-color: #0B4C5F;
+    margin: 0 auto;
+    border: 1px solid black;
+    /* Remove after done */
+}
+
+/* Header styles */
+
+.header {
+    height: 130px;
+}
+.header img {
+    height: 100px;
+    width: 350px;
+}
+.header div.searchbox {
+    height: 100px;
+    margin-left: 290px;
+    margin-top: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+.header div.searchbox p {
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+.header div.searchbox p a {
+    color: #FACC2E;
+}
+.header div.searchbox p span {
+    color: #000;
+}
+.header div.searchbox .search-button {
+    height: 50px;
+    width: 250px;
+    background-color: #2E2E2E;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.header div.searchbox .search-button input {
+    padding: 5px;
+    text-align: center;
+}
+.header div.searchbox .search-button button {
+    padding: 5px;
+    margin-left: 5px;
+    width: 35px;
+    border-radius: 5px;
+    background-color: #0B3861;
+    color: #fff;
+}
+
+/* Page navigation styles */
