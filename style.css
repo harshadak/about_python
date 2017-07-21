@@ -15,8 +15,6 @@
     padding: 35px;
     background-color: #0B4C5F;
     margin: 0 auto;
-    border: 1px solid black;
-    /* Remove after done */
 }
 
 /* Header styles */
@@ -155,8 +153,6 @@
     display: block;
     width: 970px;
     margin: 0 auto;
-    border: 1px solid black;
-    /* Remove after done */
 }
 
 /* General info styles */
